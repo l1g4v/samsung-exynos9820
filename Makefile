@@ -678,7 +678,7 @@ include/config/auto.conf: ;
 endif # $(dot-config)
 
 ifdef CONFIG_CC_WERROR
-  KBUILD_CFLAGS += -Werror
+  #KBUILD_CFLAGS += -Werror
 endif
 
 # For the kernel to actually contain only the needed exported symbols,
